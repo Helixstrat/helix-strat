@@ -690,6 +690,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 .dirigeant__citation figcaption {
   margin-top: 1.5rem;
+  padding-left: 2rem;        /* aligné sur le texte de la citation, à droite du filet */
+  text-align: right;
   font-weight: 500;
   font-size: .95rem;
   letter-spacing: .04em;
