@@ -634,3 +634,57 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .ambassades__texte strong { font-weight: 400; }
+/* ---------- 12. À l'origine : le fondateur ---------- */
+.dirigeant {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1.25rem 1rem;
+  text-align: center;
+}
+
+.dirigeant .surtitre { margin: 0 0 .75rem; }
+
+/* médaillon rond, écho des vignettes des quatre récits */
+.dirigeant__photo {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 50%;
+  border: 2px solid var(--sable);
+  box-shadow: 0 0 0 6px var(--papier), 0 0 0 7px rgba(189,160,120,.45);
+  margin: 2.75rem auto 2.5rem;
+}
+
+.dirigeant__texte {
+  max-width: 62ch;
+  margin: 0 auto;
+  text-align: left;
+}
+.dirigeant__texte p { margin: 0 0 1rem; }
+.dirigeant__texte p:last-child { margin-bottom: 0; }
+
+/* citation : même traitement que l'accroche du diplomate */
+.dirigeant__citation { margin: 3rem 0 0; }
+.dirigeant__citation blockquote { margin: 0; }
+.dirigeant__citation p {
+  margin: 0;
+  font-family: var(--police-slogan);
+  font-weight: 700;          /* Walkway Bold */
+  font-size: 1.6rem;
+  line-height: 1.35;
+  color: var(--brun-moyen);
+}
+
+.dirigeant__citation figcaption {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: .95rem;
+  letter-spacing: .04em;
+  color: var(--brun-moyen);
+}
+
+@media (max-width: 600px) {
+  .dirigeant__photo { max-width: 240px; }
+}
