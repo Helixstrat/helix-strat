@@ -463,6 +463,7 @@ img { max-width: 100%; height: auto; display: block; }
   width: 100%;
   max-width: 240px;
   aspect-ratio: 1;
+  object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--sable);
   box-shadow: 0 0 0 6px var(--papier), 0 0 0 7px rgba(189,160,120,.45);
