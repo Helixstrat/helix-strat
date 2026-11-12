@@ -205,7 +205,7 @@
     <img class="helice" src="img/helice.png" alt="" width="414" height="114">
        <!-- ---------- Le fondateur ---------- -->
     <section class="dirigeant" aria-labelledby="titre-dirigeant">
-      <p class="surtitre">Nos origines</p>
+      <p class="surtitre">Notre rôle</p>
       <h2 class="recits__titre" id="titre-dirigeant">Pourquoi avoir lancé Hélixstrat&nbsp;?</h2>
 
       <img class="dirigeant__photo"
@@ -276,13 +276,65 @@
     <section class="ambassades">
       <p class="ambassades__texte">
         Pour aller plus loin dans la diplomatie territoriale, nous pouvons également vous aider
-        à concevoir les <strong>ambassades de vos projets</strong>, véritables points d'ancrage
-        et d'interface entre vos valeurs et les territoires dans lesquels elles prennent vie.
+        à concevoir des maison de projet d'un nouveau genre : les <strong>ambassades de projets</strong>. Véritables points d'ancrage
+        et d'interface entre vos valeurs et les territoires dans lesquels elles prennent vie grâce à la co-construction et à la mobilisation des forces vives d'un territoire.
       </p>
     </section>
 
     <!-- Étape suivante : appel à l'action + formulaire de contact -->
+ <section class="contact" aria-labelledby="titre-contact">
+      <style>
+        .contact {
+          max-width: 860px;
+          margin: 0 auto;
+          padding: 0 1.25rem 4rem;
+          text-align: center;
+        }
+        .contact__intro {
+          max-width: 62ch;
+          margin: 1.75rem auto 2.75rem;
+        }
+        .contact__bouton {
+          display: inline-block;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 1rem;
+          letter-spacing: .04em;
+          color: var(--papier);
+          background: var(--brun);
+          border: 0;
+          border-radius: 2px;
+          padding: .85rem 1.6rem;
+          transition: background-color .2s ease;
+        }
+        .contact__bouton:hover { background: var(--brun-fonce); }
+        .contact__bouton:focus-visible { outline: 2px solid var(--sable); outline-offset: 3px; }
+        .contact__courriel {
+          display: block;
+          margin-top: 1.5rem;
+          font-size: .95rem;
+          color: var(--brun-moyen);
+        }
+        .contact__courriel a { color: var(--brun); }
+      </style>
 
+      <p class="surtitre">Étape suivante</p>
+      <h2 class="recits__titre" id="titre-contact">Vous souhaitez échanger&nbsp;? Contactez-nous.</h2>
+      <p class="contact__intro">
+        Chaque territoire et chaque projet sont singuliers&nbsp;: parlons de votre contexte,
+        de vos échéances et de la manière dont nous pouvons faire avancer votre projet
+        avec celles et ceux qui l'entourent.
+      </p>
+
+      <a class="contact__bouton"
+         href="mailto:antonin@helixstrat.fr?subject=Prise%20de%20contact%20depuis%20le%20site%20H%C3%89LIXSTRAT">
+        Écrire à HÉLIXSTRAT
+      </a>
+      <p class="contact__courriel">
+        Ou directement par email&nbsp;:
+        <a href="mailto:antonin@helixstrat.fr">antonin@helixstrat.fr</a>
+      </p>
+    </section>
   </main>
 
   <script src="js/main.js"></script>
