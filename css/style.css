@@ -289,7 +289,26 @@ img { max-width: 100%; height: auto; display: block; }
   .banniere__image { object-position: 30% top; }
   .banniere__titre { top: 2.25rem; }
 }
-
+.diplomatie-territoriale {
+  background: #4a3a2a; /* à remplacer par le marron exact des textes du site */
+  padding: 72px 40px;
+  text-align: center;
+}
+.diplomatie-territoriale .dt-kicker {
+  font-family: inherit;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #bda078;
+  margin-bottom: 22px;
+}
+.diplomatie-territoriale blockquote {
+  font-size: 22px;
+  line-height: 1.55;
+  color: #bda078;
+  max-width: 660px;
+  margin: 0 auto;
+}
 /* ---------- 7. La promesse et les 5 missions ---------- */
 .promesse {
   max-width: 1240px;
